@@ -12,10 +12,12 @@
 <body>
     
   <div id="dropdown">
+
     <button class="dropdown-toggle">
       <span>Menu</span>
       <i class="fa-solid fa-caret-down"></i>
     </button>
+
     <ul class="menu">
       <li class="menu-item"><a href="#">Italian</a></li>
       <li class="menu-item"><a href="#">Chinese</a></li>
@@ -24,16 +26,20 @@
           <span>Healthy Options</span>
           <i class="fa-solid fa-caret-right"></i>
         </a>
+
         <ul class="submenu">
           <li class="submenu-item"><a href="#">Vegetarian</a></li>
         </ul>
+
       </li>
+
       <li class="menu-item"><a href="#">Mexican</a></li>
       <li class="menu-item dropdown">
         <a href="#" class="submenu-toggle">
           <span>Specials</span>
           <i class="fa-solid fa-caret-right"></i>
         </a>
+        
         <ul class="submenu">
 
         </ul>
@@ -41,16 +47,16 @@
     </ul>
   </div>
 
-  <form action="index.html" method="post">
+  <form action="Cuisine.html" method="post">
    
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required><br>
+    <label for="Name">Name:</label>
+    <input type="text" id="Name" name="Name" required><br>
     <label for="email">Email:</label>
     <input type="email" id="email" name="email" required><br>
     <label for="age">Age:</label>
     <input type="number" id="age" name="age" required><br>
     
-    <label for="cuisine">Type of Cuisine:</label>
+    <label for="Cuisine">Type of Cuisine:</label>
     <div id="dropdown">
       <button class="dropdown-toggle">
         <span>Select Cuisine</span>
@@ -61,23 +67,23 @@
       </ul>
     </div><br>
 
-    <label for="payment">Mode of Payment:</label>
-    <select id="payment" name="payment" required>
+    <label for="Payment">Mode of Payment:</label>
+    <select id="Payment" name="Payment" required>
       <option value="cash">Cash</option>
       <option value="card">Card</option>
       <option value="online">Online</option>
     </select><br>
   
-    <label for="dine-takeout">Dine-in / Take-out:</label>
-    <select id="dine-takeout" name="dine-takeout" required>
+    <label for="Dine-takeout">Dine-in / Take-out:</label>
+    <select id="Dine-takeout" name="Dine-takeout" required>
       <option value="Dine-in">Dine-in</option>
       <option value="Take-out">Take-out</option>
     </select><br>
   
-    <label for="Comments">Comments/Instruction:</label><br>
+    <label for="Comments">Comments / Instruction:</label><br>
     <textarea id="Comments" name="Comments" rows="4" cols="50"></textarea><br>
   
-    <button type="Submit">Order Placed</button>
+    <button type="Submit">Order Placed</button><br>
 
     <button type="Button">Cancel</button><br>
   </form>
